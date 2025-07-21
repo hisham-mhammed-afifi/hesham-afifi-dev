@@ -32,10 +32,9 @@ const ContactSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-white">Let's Work Together</h2>
           <div className="w-24 h-1 bg-white/30 mx-auto rounded-full mb-6"></div>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed">
-            Open to new frontend challenges and collaborations. 
-            Let's build something amazing together!
-          </p>
+           <p className="text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed">
+             Open to exciting frontend challenges. Let's build something amazing together!
+           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">

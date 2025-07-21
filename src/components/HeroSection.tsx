@@ -23,17 +23,17 @@ const HeroSection = () => {
             </h1>
             
             <h2 className="text-xl lg:text-2xl text-primary-glow font-medium">
-              Senior Frontend Engineer | Angular & TypeScript Expert
+              Senior Frontend Engineer | Angular & TypeScript Specialist
             </h2>
             
             <div className="space-y-2 text-lg text-blue-100">
-              <p>Building modern web experiences with performance</p>
-              <p>and scale in mind.</p>
+              <p>Building performant web apps that scale,</p>
+              <p>engage, and inspire.</p>
             </div>
 
             <div className="flex items-center gap-2 text-blue-100">
               <MapPin size={20} />
-              <span>Cairo, Egypt (Remote-friendly)</span>
+              <span>Nasr City, Cairo, Egypt (Remote-friendly)</span>
             </div>
 
             <div className="flex gap-4">

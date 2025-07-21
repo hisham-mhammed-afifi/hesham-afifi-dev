@@ -35,23 +35,21 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate Senior Frontend Engineer with deep expertise in Angular and TypeScript, 
-              dedicated to crafting exceptional web experiences. My journey began as an intern at WideBot, 
-              where I discovered my love for frontend development and quickly progressed through junior 
-              to senior roles.
+              I'm a passionate Senior Frontend Engineer with strong Angular expertise and a drive to 
+              deliver clean, modular, and performant code. I specialize in building enterprise-grade 
+              SaaS platforms and have led feature development across several business-critical modules.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With a strong foundation in modern web technologies and a keen eye for performance optimization, 
-              I specialize in building scalable applications that deliver outstanding user experiences. 
-              I'm particularly interested in the intersection of frontend development and AI technologies, 
-              especially in chatbot and conversational interface development.
+              I contribute to architecture discussions, mentor junior developers, and enjoy working on 
+              AI/chatbot integrations. I'm highly adaptable, detail-oriented, and always pushing for 
+              better UI/UX and developer experience.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Beyond coding, I enjoy mentoring junior developers and contributing to team growth. 
-              I believe in clean, maintainable code and am always exploring new technologies to 
-              enhance development efficiency and user satisfaction.
+              My journey began as an intern at WideBot, where I discovered my passion for frontend 
+              development and quickly progressed through junior to senior roles, consistently delivering 
+              high-impact solutions that enhance both user experience and business outcomes.
             </p>
           </div>
 

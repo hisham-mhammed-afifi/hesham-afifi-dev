@@ -4,17 +4,17 @@ const EducationSection = () => {
   const education = [
     {
       institution: "Information Technology Institute (ITI)",
-      degree: "Diploma in Full Stack Development",
+      degree: "Diploma in Fullstack Development",
       specialization: "MEARN Stack (MongoDB, Express.js, Angular, React, Node.js)",
       period: "2022",
       location: "Cairo, Egypt",
       type: "Professional Training",
       highlights: [
-        "Intensive 9-month full-stack development program",
-        "Hands-on experience with modern web technologies",
-        "Team-based project development using Agile methodologies",
-        "Excellent performance across all program modules",
-        "Industry-standard practices and development workflows"
+        "Intensive fullstack development program",
+        "Hands-on experience with MEAN stack technologies",
+        "Built real-world web applications",
+        "Team-based project development",
+        "Industry-standard development practices"
       ],
       icon: BookOpen,
       gradient: "from-emerald-500 to-green-600"
@@ -22,16 +22,16 @@ const EducationSection = () => {
     {
       institution: "Al-Azhar University",
       degree: "Bachelor's Degree",
-      specialization: "Computer Science & Engineering",
-      period: "2015 - 2019",
+      specialization: "Islamic & Arabic Studies",
+      period: "2019",
       location: "Cairo, Egypt", 
       type: "University Education",
       highlights: [
-        "Strong foundation in computer science fundamentals",
-        "Object-oriented programming and software design",
-        "Data structures, algorithms, and computational theory",
-        "Database management systems and software engineering",
-        "Mathematics and analytical problem-solving skills"
+        "Strong foundation in analytical thinking",
+        "Research and critical analysis skills",
+        "Communication and presentation abilities",
+        "Cultural and linguistic expertise",
+        "Academic writing and documentation skills"
       ],
       icon: GraduationCap,
       gradient: "from-blue-500 to-indigo-600"

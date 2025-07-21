@@ -7,32 +7,29 @@ const SkillsSection = () => {
       icon: Code,
       skills: [
         "Angular", "React", "TypeScript", "JavaScript", "HTML5", "CSS3", 
-        "Tailwind CSS", "Bootstrap", "SCSS/SASS", "RxJS", "NgRx"
+        "Tailwind CSS", "Bootstrap", "Angular Material"
       ]
     },
     {
       title: "Backend & Database",
       icon: Database,
       skills: [
-        "Node.js", "Express.js", "NestJS", "MongoDB", "RESTful APIs", 
-        "GraphQL", "JWT Authentication", "Socket.io"
+        "Node.js", "Express.js", "NestJS", "MongoDB", "Mongoose", "RESTful APIs"
       ]
     },
     {
       title: "Tools & Platforms",
       icon: Wrench,
       skills: [
-        "Git", "GitHub", "AWS CodeCommit", "AWS S3", "Figma", "VS Code", 
-        "npm/yarn", "Webpack", "Vite", "Jest", "Cypress"
+        "Git", "GitHub", "Figma", "AWS S3", "AWS CodeCommit"
       ]
     },
     {
-      title: "Core Concepts",
+      title: "Core Foundations",
       icon: Layers,
       skills: [
         "Object-Oriented Programming", "Design Patterns", "Data Structures", 
-        "Algorithms", "Responsive Design", "Performance Optimization", 
-        "Code Review", "Agile/Scrum"
+        "Algorithms"
       ]
     }
   ];

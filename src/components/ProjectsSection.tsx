@@ -4,60 +4,46 @@ import { Button } from '@/components/ui/button';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Bot Builder Platform",
+      title: "Bot Builder",
       company: "WideBot",
-      description: "A comprehensive drag-and-drop chatbot builder that enables non-technical users to create sophisticated conversational AI experiences. Built with Angular and TypeScript for optimal performance and scalability.",
-      technologies: ["Angular", "TypeScript", "RxJS", "NgRx", "SCSS", "RESTful APIs"],
+      description: "SaaS platform for building smart chatbots with integrated advanced AI training and analytics modules that significantly improved UX and performance.",
+      technologies: ["Angular", "TypeScript", "Node.js", "MongoDB"],
       achievements: [
-        "Led frontend architecture design for scalable component system",
-        "Implemented real-time collaboration features for team building",
-        "Integrated advanced analytics for bot performance tracking",
-        "Reduced build time by 35% through code optimization"
+        "Integrated advanced AI training modules",
+        "Built comprehensive analytics dashboard", 
+        "Improved platform performance significantly",
+        "Enhanced overall user experience"
       ],
       icon: Zap,
       gradient: "from-blue-500 to-purple-600"
     },
     {
-      title: "Chat Widget SDK",
+      title: "Chat Widget Plugin",
       company: "WideBot",
-      description: "A lightweight, embeddable chat widget that integrates seamlessly into any website. Features real-time messaging, file sharing, and customizable UI themes to match brand identity.",
-      technologies: ["Angular", "TypeScript", "Socket.io", "CSS3", "Webpack"],
+      description: "Developed customizable website chat plugin with enhanced interactivity, responsiveness, and optimized load times with cross-platform support.",
+      technologies: ["Angular", "TypeScript", "CSS3", "JavaScript"],
       achievements: [
-        "Created modular architecture for easy client customization",
-        "Optimized bundle size to under 50KB for fast loading",
-        "Implemented responsive design for all device types",
-        "Added multi-language support for global deployment"
+        "Created customizable design options",
+        "Enhanced interactivity across all devices",
+        "Optimized load times for better performance",
+        "Ensured cross-platform compatibility"
       ],
       icon: MessageCircle,
       gradient: "from-green-500 to-teal-600"
     },
     {
-      title: "Analytics Dashboard",
+      title: "Audience Manager & Log Manager",
       company: "WideBot",
-      description: "Advanced analytics platform providing deep insights into chatbot performance, user engagement, and conversation flow analysis. Features interactive charts and real-time data visualization.",
-      technologies: ["Angular", "TypeScript", "Chart.js", "RxJS", "Material Design"],
+      description: "Delivered comprehensive modules to track user data and system logs, enabling better insights and operational control for business intelligence.",
+      technologies: ["Angular", "TypeScript", "Express.js", "MongoDB"],
       achievements: [
-        "Designed intuitive data visualization components",
-        "Implemented real-time data streaming with WebSockets",
-        "Created custom filtering and export functionality",
-        "Improved user retention by 25% through UX enhancements"
+        "Built user data tracking system",
+        "Developed system log management",
+        "Created analytics insights dashboard",
+        "Enabled better operational control"
       ],
       icon: BarChart3,
       gradient: "from-orange-500 to-red-600"
-    },
-    {
-      title: "Team Collaboration Suite",
-      company: "WideBot",
-      description: "Internal collaboration platform for managing bot development workflows, team communication, and project tracking. Streamlines the entire bot creation process from concept to deployment.",
-      technologies: ["Angular", "TypeScript", "Node.js", "MongoDB", "JWT"],
-      achievements: [
-        "Architected role-based access control system",
-        "Integrated real-time notifications and updates",
-        "Developed project timeline and milestone tracking",
-        "Increased team productivity by 40% through workflow automation"
-      ],
-      icon: Users,
-      gradient: "from-indigo-500 to-blue-600"
     }
   ];
 

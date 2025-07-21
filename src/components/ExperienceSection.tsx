@@ -5,71 +5,53 @@ const ExperienceSection = () => {
     {
       company: "WideBot",
       role: "Senior Frontend Engineer",
-      period: "2023 - Present",
+      period: "Mar 2024 - Present",
       location: "Cairo, Egypt",
       type: "Full-time",
       achievements: [
-        "Led frontend development for Bot Builder platform using Angular and TypeScript",
-        "Architected scalable chat widget solution integrated across multiple client websites",
-        "Improved application performance by 40% through code optimization and lazy loading",
-        "Mentored 3 junior developers and established coding standards for the team",
-        "Implemented advanced analytics integration for user behavior tracking"
+        "Led Bot Builder platform development",
+        "Integrated APIs and improved performance significantly",
+        "Boosted platform analytics & cross-platform integration",
+        "Architected scalable frontend solutions for enterprise clients"
       ]
     },
     {
       company: "WideBot",
-      role: "Frontend Engineer",
-      period: "2022 - 2023",
+      role: "Junior Frontend Engineer",
+      period: "Jun 2022 - Mar 2024",
       location: "Cairo, Egypt",
       type: "Full-time",
       achievements: [
-        "Developed responsive web applications using Angular and modern CSS frameworks",
-        "Collaborated with UX/UI designers to implement pixel-perfect designs",
-        "Integrated RESTful APIs and implemented real-time chat functionality",
-        "Contributed to component library development for design system consistency",
-        "Participated in code reviews and maintained high code quality standards"
-      ]
-    },
-    {
-      company: "WideBot",
-      role: "Junior Frontend Developer",
-      period: "2022",
-      location: "Cairo, Egypt",
-      type: "Full-time",
-      achievements: [
-        "Built interactive user interfaces using Angular and TypeScript",
-        "Implemented responsive designs with CSS Grid and Flexbox",
-        "Worked on bug fixes and feature enhancements for existing applications",
-        "Learned advanced Angular concepts including RxJS and state management",
-        "Collaborated effectively with backend developers on API integration"
+        "Migrated legacy code to Angular framework",
+        "Built chat widget plugin with enhanced functionality",
+        "Mentored interns and junior developers",
+        "Improved codebase maintainability and performance"
       ]
     },
     {
       company: "WideBot",
       role: "Frontend Development Intern",
-      period: "2022",
+      period: "Mar 2022 - Jun 2022",
       location: "Cairo, Egypt",
       type: "Internship",
       achievements: [
-        "Gained hands-on experience with Angular framework and TypeScript",
-        "Assisted in developing user interface components and features",
-        "Learned version control with Git and collaborative development practices",
-        "Participated in daily standups and agile development processes",
-        "Contributed to testing and quality assurance activities"
+        "Built UI components for wallet & broadcast modules",
+        "Collaborated closely with design team",
+        "Learned Angular and modern frontend practices",
+        "Contributed to multiple platform features"
       ]
     },
     {
       company: "Information Technology Institute (ITI)",
-      role: "Full Stack Development Trainee",
-      period: "2022",
+      role: "Fullstack Trainee",
+      period: "Jan 2022 - Mar 2022",
       location: "Cairo, Egypt",
       type: "Training Program",
       achievements: [
-        "Completed intensive full-stack development program (MEARN stack)",
-        "Built end-to-end web applications using MongoDB, Express, Angular, and Node.js",
-        "Learned database design and RESTful API development",
-        "Worked on team projects applying agile methodologies",
-        "Achieved excellent performance in all program modules"
+        "Trained in MEAN stack technologies",
+        "Built real-world web applications",
+        "Learned full-stack development fundamentals",
+        "Participated in collaborative team projects"
       ]
     }
   ];
