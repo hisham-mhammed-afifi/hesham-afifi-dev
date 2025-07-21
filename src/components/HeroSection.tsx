@@ -1,6 +1,6 @@
 import { ArrowDown, MapPin, Mail, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroAvatar from '@/assets/hero-avatar.jpg';
+import heroAvatar from '@/assets/frontend.png';
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -36,7 +36,7 @@ const HeroSection = () => {
               <span>Nasr City, Cairo, Egypt (Remote-friendly)</span>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <Button 
                 onClick={scrollToContact}
                 size="lg"
@@ -74,16 +74,16 @@ const HeroSection = () => {
           </div>
 
           {/* Avatar */}
-          <div className="flex justify-center order-1 lg:order-2">
+          <div className="flex justify-center order-2">
             <div className="relative">
-              <div className="w-80 h-80 rounded-full overflow-hidden shadow-glow border-4 border-white/20">
+              <div className="rounded-2xl overflow-hidden shadow-glow">
                 <img 
                   src={heroAvatar} 
                   alt="Hesham Mohammed Afifi"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent"></div>
+              {/* <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent"></div> */}
             </div>
           </div>
         </div>

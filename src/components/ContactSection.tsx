@@ -49,7 +49,7 @@ const ContactSection = () => {
                   rel={method.link.startsWith('http') ? 'noopener noreferrer' : ''}
                   className="block p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300 group"
                 >
-                  <div className="flex items-center gap-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-4">
                     <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center group-hover:bg-white/30 transition-colors">
                       <method.icon size={24} className="text-white" />
                     </div>
