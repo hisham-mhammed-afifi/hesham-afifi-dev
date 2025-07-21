@@ -52,7 +52,7 @@ const SkillsSection = () => {
                 <h3 className="font-bold text-lg">{category.title}</h3>
               </div>
 
-              <div className="space-y-3">
+              <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill, skillIndex) => (
                   <div 
                     key={skillIndex}
@@ -69,15 +69,15 @@ const SkillsSection = () => {
         {/* Expertise Highlights */}
         <div className="mt-16 grid md:grid-cols-3 gap-8">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">5+</div>
+            <div className="text-3xl font-bold text-primary mb-2">4+</div>
             <div className="text-muted-foreground">Years of Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">20+</div>
-            <div className="text-muted-foreground">Projects Completed</div>
+            <div className="text-3xl font-bold text-primary mb-2">100+</div>
+            <div className="text-muted-foreground">Stories & Tasks Completed</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">3</div>
+            <div className="text-3xl font-bold text-primary mb-2">5</div>
             <div className="text-muted-foreground">Developers Mentored</div>
           </div>
         </div>
