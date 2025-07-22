@@ -1,73 +1,139 @@
-# Welcome to your Lovable project
+# 👋 Hi, I'm Hesham Mohammed Afifi
 
-## Project info
+Senior Frontend Engineer | AI & Chatbot Enthusiast  
+📍 Nasr City, Cairo, Egypt  
+📧 [hish.abdelshafouk@gmail.com](mailto:hish.abdelshafouk@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/hisham-abd-elshafouk) | [GitHub](https://github.com/hisham-mhammed-afifi)
 
-**URL**: https://lovable.dev/projects/6e8caef2-679e-4c0c-a587-e04de2042c5c
+---
 
-## How can I edit this code?
+## 🚀 About Me
 
-There are several ways of editing your application.
+I'm a passionate Frontend Engineer with 3+ years of experience building scalable, high-performance web applications. I specialize in modern frameworks like Angular and React, and I thrive on creating exceptional user experiences, optimizing codebases, and integrating with complex backends.
 
-**Use Lovable**
+Currently, I lead frontend development at **WideBot**, where I help build AI-powered chatbot solutions that drive customer success across the MENA region.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6e8caef2-679e-4c0c-a587-e04de2042c5c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💼 Experience
 
-**Use your preferred IDE**
+### 🟢 **Senior Frontend Engineer**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**WideBot** – Cairo, Egypt  
+📅 _Mar 2024 – Present_
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Architected and delivered key features for the Bot Builder SaaS platform.
+- Improved UI responsiveness and system performance across modules.
+- Integrated backend APIs, enhancing real-time chatbot capabilities.
+- Supported AI training tools and analytics dashboards.
+- Strengthened multi-platform integrations (WhatsApp, Facebook, Twitter, SMS, Email).
 
-Follow these steps:
+### 🟡 **Junior Frontend Engineer**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**WideBot** – Cairo, Egypt  
+📅 _Jun 2022 – Mar 2024_
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Optimized and scaled the chat widget plugin with dynamic, interactive components.
+- Migrated AngularJS legacy code to modern Angular architecture.
+- Mentored interns and junior engineers through code reviews and pair programming.
+- Built core modules like Audience Manager and Log Manager.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🟠 **Frontend Intern**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+**WideBot** – Cairo, Egypt  
+📅 _Mar 2022 – Jun 2022_
+
+- Delivered responsive UI components and layouts based on UX specifications.
+- Assisted in early stages of the Wallet and Broadcast modules.
+
+### 🧪 **Fullstack Developer Trainee**
+
+**Information Technology Institute (ITI)** – Cairo, Egypt  
+📅 _Jan 2022 – Mar 2022_
+
+- Completed hands-on training in the MEAN stack (MongoDB, Express, Angular, Node).
+- Built and deployed several web apps demonstrating fullstack proficiency.
+
+---
+
+## 📚 Education
+
+- **Diploma in Fullstack Development (MEARN)**  
+  _Information Technology Institute (ITI) – 2022_
+
+- **Bachelor of Islamic and Arabic Studies**  
+  _Al-Azhar University, Cairo – 2019_
+
+---
+
+## 🧩 Projects
+
+### 🧠 [Bot Builder – WideBot](https://widebot.io/)
+
+SaaS platform for creating AI-powered chatbots  
+✔️ Integrated advanced features for multilingual support and NLP training  
+✔️ Enhanced real-time collaboration and analytics dashboards
+
+### 💬 Chat Widget Plugin – WideBot
+
+Website plugin to enable real-time chat integration  
+✔️ Highly customizable and embeddable on third-party websites  
+✔️ Improved engagement, response time, and support efficiency
+
+---
+
+## 🛠 Tech Stack
+
+### 💻 Frontend
+
+- **Languages**: HTML, CSS, JavaScript, TypeScript
+- **Frameworks**: Angular, React
+- **Styling**: TailwindCSS, Bootstrap, Angular Material
+
+### ⚙️ Backend
+
+- Node.js, Express, Nest.js, Mongoose
+
+### 🎨 UI/UX
+
+- Figma, Responsive Web Design
+
+### ☁️ DevOps & Tools
+
+- Git, GitHub, GitLab
+- AWS (S3, CodeCommit)
+
+---
+
+## 🧠 Additional Skills
+
+- Design Patterns, OOP, Data Structures, Algorithms
+- Cross-platform integrations (WhatsApp, Facebook, Instagram APIs)
+- Agile & Scrum Development
+- Strong focus on performance optimization
+
+---
+
+## 🤝 Soft Skills
+
+- Team leadership & mentoring
+- Problem-solving & analytical mindset
+- Continuous learning & adaptability
+- Excellent time management
+
+---
+
+## 🌍 Languages
+
+- **Arabic**: Native
+- **English**: Very Good
+
+---
+
+## 📌 GitHub Stats (Optional)
+
+_You can enhance your profile further by adding a GitHub stats card using shields.io or GitHub Readme Stats._
+
+```md
+![Hesham's GitHub stats](https://github-readme-stats.vercel.app/api?username=hisham-mhammed-afifi&show_icons=true&theme=dracula)
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6e8caef2-679e-4c0c-a587-e04de2042c5c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
