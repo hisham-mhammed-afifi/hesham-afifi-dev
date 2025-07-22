@@ -127,13 +127,3 @@ Website plugin to enable real-time chat integration
 
 - **Arabic**: Native
 - **English**: Very Good
-
----
-
-## 📌 GitHub Stats (Optional)
-
-_You can enhance your profile further by adding a GitHub stats card using shields.io or GitHub Readme Stats._
-
-```md
-![Hesham's GitHub stats](https://github-readme-stats.vercel.app/api?username=hisham-mhammed-afifi&show_icons=true&theme=dracula)
-```
