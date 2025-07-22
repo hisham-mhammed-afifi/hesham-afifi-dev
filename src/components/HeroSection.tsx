@@ -77,11 +77,16 @@ const HeroSection = () => {
           <div className="flex justify-center order-2">
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-glow">
-                <img 
-                  src={heroAvatar} 
-                  alt="Hesham Mohammed Afifi"
-                  className="w-full h-full object-cover"
-                />
+                <picture className="w-full h-full">
+                  <source srcSet={heroAvatar} type="image/avif" />
+                  <source srcSet={heroAvatar} type="image/webp" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src={heroAvatar}
+                    alt="Hero image"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
               {/* <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent"></div> */}
             </div>
