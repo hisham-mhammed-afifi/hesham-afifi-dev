@@ -68,13 +68,13 @@ Currently, I lead frontend development at **WideBot**, where I help build AI-pow
 
 ## 🧩 Projects
 
-### 🧠 [Bot Builder – WideBot](https://widebot.io/)
+### 🧠 [Bot Builder – WideBot](https://widebot.ai/)
 
 SaaS platform for creating AI-powered chatbots  
 ✔️ Integrated advanced features for multilingual support and NLP training  
 ✔️ Enhanced real-time collaboration and analytics dashboards
 
-### 💬 Chat Widget Plugin – WideBot
+### 💬 [Chat Widget Plugin – WideBot](https://widebot.ai/)
 
 Website plugin to enable real-time chat integration  
 ✔️ Highly customizable and embeddable on third-party websites  
