@@ -127,3 +127,17 @@ Website plugin to enable real-time chat integration
 
 - **Arabic**: Native
 - **English**: Very Good
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hisham-mhammed-afifi&show_icons=true&theme=radical" alt="Hesham's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hisham-mhammed-afifi&layout=compact&theme=radical" alt="Hesham's Top Languages" />
+</p>
+
+---
