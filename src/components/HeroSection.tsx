@@ -84,18 +84,22 @@ const HeroSection = () => {
               <div className="rounded-2xl overflow-hidden shadow-glow">
                 <picture className="w-full">
                   <source
-                    srcSet={`${heroAvatarAVIF} 1x, ${heroAvatarSmallAVIF} 2x`}
+                    srcSet={`${heroAvatarSmallAVIF} 600w, ${heroAvatarAVIF} 1200w`}
+                    sizes="(max-width: 640px) 100vw, 1200px"
                     type="image/avif"
                   />
                   <source
-                    srcSet={`${heroAvatarWEBP} 1x, ${heroAvatarSmallWEBP} 2x`}
+                    srcSet={`${heroAvatarSmallWEBP} 600w, ${heroAvatarWEBP} 1200w`}
+                    sizes="(max-width: 640px) 100vw, 1200px"
                     type="image/webp"
                   />
                   <img
                     className="w-full object-cover"
                     src={heroAvatar}
                     srcSet={`${heroAvatarSmall} 600w, ${heroAvatar} 1200w`}
-                    sizes="(max-width: 600px) 600px, 1200px"
+                    sizes="(max-width: 640px) 100vw, 1200px"
+                    loading="eager"
+                    decoding="async"
                     alt="Hero image"
                   />
                 </picture>
