@@ -1,17 +1,17 @@
-import { ArrowDown, MapPin, Mail, Github, Linkedin } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import heroAvatar from '@/assets/frontend.png';
-import heroAvatarSmall from '@/assets/frontend-small.png';
-import heroAvatarAVIF from '@/assets/frontend.avif';
-import heroAvatarSmallAVIF from '@/assets/frontend-small.avif';
-import heroAvatarWEBP from '@/assets/frontend.webp';
-import heroAvatarSmallWEBP from '@/assets/frontend-small.webp';
+import { ArrowDown, MapPin, Mail, Github, Linkedin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import heroAvatar from "@/assets/frontend.png";
+import heroAvatarSmall from "@/assets/frontend-small.png";
+import heroAvatarAVIF from "@/assets/frontend.avif";
+import heroAvatarSmallAVIF from "@/assets/frontend-small.avif";
+import heroAvatarWEBP from "@/assets/frontend.webp";
+import heroAvatarSmallWEBP from "@/assets/frontend-small.webp";
 
 const HeroSection = () => {
   const scrollToContact = () => {
-    const element = document.getElementById('contact');
+    const element = document.getElementById("contact");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -22,15 +22,15 @@ const HeroSection = () => {
           {/* Content */}
           <div className="text-white space-y-6 order-2 lg:order-1">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              Hesham Mohammed 
+              Hesham Mohammed
               <br />
               <span className="text-primary-glow">Afifi</span>
             </h1>
-            
+
             <h2 className="text-xl lg:text-2xl text-primary-glow font-medium">
               Senior Frontend Engineer | Angular & TypeScript Specialist
             </h2>
-            
+
             <div className="space-y-2 text-lg text-blue-100">
               <p>Building performant web apps that scale,</p>
               <p>engage, and inspire.</p>
@@ -42,7 +42,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button 
+              <Button
                 onClick={scrollToContact}
                 size="lg"
                 className="bg-white text-primary hover:bg-blue-50 shadow-glow"
@@ -52,13 +52,13 @@ const HeroSection = () => {
               </Button>
 
               <div className="flex items-center gap-3">
-                <a 
+                <a
                   href="mailto:hish.abdelshafouk@gmail.com"
                   className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
                 >
                   <Mail size={20} className="text-white" />
                 </a>
-                <a 
+                <a
                   href="https://linkedin.com/in/hisham-abd-elshafouk"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -66,7 +66,7 @@ const HeroSection = () => {
                 >
                   <Linkedin size={20} className="text-white" />
                 </a>
-                <a 
+                <a
                   href="https://github.com/hisham-mhammed-afifi"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const HeroSection = () => {
           <div className="flex justify-center order-2">
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-glow">
-                <picture className="w-full h-full">
+                <picture className="w-full">
                   <source
                     srcSet={`${heroAvatarAVIF} 1x, ${heroAvatarSmallAVIF} 2x`}
                     type="image/avif"
@@ -92,7 +92,7 @@ const HeroSection = () => {
                     type="image/webp"
                   />
                   <img
-                    className="w-full h-full object-cover"
+                    className="w-full object-cover"
                     src={heroAvatar}
                     srcSet={`${heroAvatarSmall} 600w, ${heroAvatar} 1200w`}
                     sizes="(max-width: 600px) 600px, 1200px"
