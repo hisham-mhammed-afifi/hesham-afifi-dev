@@ -86,7 +86,6 @@ const HeroSection = () => {
                     className="w-full h-full object-cover"
                     src={heroAvatar}
                     alt="Hero image"
-                    loading="lazy"
                   />
                 </picture>
               </div>
