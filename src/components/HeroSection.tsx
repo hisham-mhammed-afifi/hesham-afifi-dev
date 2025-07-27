@@ -80,7 +80,7 @@ const HeroSection = () => {
 
           {/* Avatar */}
           <div className="flex justify-center order-2">
-            <div className="relative">
+            <div className="relative w-full">
               <div className="rounded-2xl overflow-hidden shadow-glow">
                 <picture className="w-full">
                   <source
