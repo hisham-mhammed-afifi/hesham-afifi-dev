@@ -1,8 +1,11 @@
 import { ArrowDown, MapPin, Mail, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroAvatar from '@/assets/frontend.png';
+import heroAvatarSmall from '@/assets/frontend-small.png';
 import heroAvatarAVIF from '@/assets/frontend.avif';
+import heroAvatarSmallAVIF from '@/assets/frontend-small.avif';
 import heroAvatarWEBP from '@/assets/frontend.webp';
+import heroAvatarSmallWEBP from '@/assets/frontend-small.webp';
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -80,11 +83,19 @@ const HeroSection = () => {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-glow">
                 <picture className="w-full h-full">
-                  <source srcSet={heroAvatarAVIF} type="image/avif" />
-                  <source srcSet={heroAvatarWEBP} type="image/webp" />
+                  <source
+                    srcSet={`${heroAvatarAVIF} 1x, ${heroAvatarSmallAVIF} 2x`}
+                    type="image/avif"
+                  />
+                  <source
+                    srcSet={`${heroAvatarWEBP} 1x, ${heroAvatarSmallWEBP} 2x`}
+                    type="image/webp"
+                  />
                   <img
                     className="w-full h-full object-cover"
                     src={heroAvatar}
+                    srcSet={`${heroAvatarSmall} 600w, ${heroAvatar} 1200w`}
+                    sizes="(max-width: 600px) 600px, 1200px"
                     alt="Hero image"
                   />
                 </picture>
